@@ -23,7 +23,8 @@ p{
 .header{
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    padding: 0 15px
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header .container {
@@ -380,7 +381,7 @@ ul {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 156px;
+    margin-left: 0px;
     height: 1000px;
     column-gap: 24px;
     row-gap: 48px;
@@ -394,12 +395,11 @@ ul {
 }
 
 .item-banking{
-    padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
     width: 360px;
     margin-bottom: 8px;
-    padding-right: 0px;
+    padding: 32px 16px
 
 }
 
