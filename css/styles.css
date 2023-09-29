@@ -34,6 +34,7 @@ p{
 .container{
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-link{
@@ -192,7 +193,7 @@ ul {
     line-height: 1.07; 
     letter-spacing: 0.02em;
     padding: 0px 0px 48px 0px;
-    margin-left: 472px;
+    margin-left: 322px;
 
 }
 
@@ -213,7 +214,7 @@ ul {
     align-items: flex-start;
     gap: 10px;
     margin-top: 0px;
-    margin-left: 635px;
+    margin-left: 460px;
     
 }
 .button-style:hover {
