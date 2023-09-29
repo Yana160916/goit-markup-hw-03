@@ -16,27 +16,23 @@ p{
     margin: 0;
 }
 
-.header-start{
+.header{
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    margin-left: 156px;
-    margin-top: 25.5px;
-    align-items: center;
-    height: 72px;
-    padding: 0 15px;
+}
+
+.header .container {
     display: flex;
+}
+
+.container{
+
 }
 
 .header-link{
     padding: 24px 0;
 }
 
-.header-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 15px;
-}
 
 img{
     display: block;
@@ -54,7 +50,7 @@ ul {
 
         }
 
-.header{
+.body{
     background: var(--WHITE, #FFF);
     border-bottom: 1px solid #E7E9FC;
 
@@ -75,7 +71,7 @@ ul {
     margin-left: 0px;
     margin-top: 25.5px;
     margin-bottom: 25.5px;
-    padding-left: 0px;
+    padding-left: 156px;
     justify-content: center;
 
 }
@@ -113,20 +109,22 @@ ul {
 }
 .contacts-list{
     font-style: normal;
-    margin-left: 0px;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
 
 }
 
 .contact-connection{
     color: var(--SLATE, #434455);
     font-family: Roboto;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     gap: 40px;
-    margin-left: 120px;
-    align-items: center;
 }
 
 .contact-connection:hover {
@@ -140,25 +138,34 @@ ul {
 .menu{
     display: flex;
     align-items: center;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding: 24px 0;
+}
+
+.menu .header-top-contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .header-top-contacts{
-    margin-top: 0px;
-    display:inline-flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 24px;
-    gap: 40px 
+    gap: 40px;
 }
+
+.link{
+    padding: 24px 0;
+}
+
+.header .contacts-list .header-top{
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Section 1 */
 
-.container{
-}
 
 .main-content-section {
     background-color: #2e2f42;
@@ -220,18 +227,11 @@ ul {
 .container-info{
     display: flex;
     gap: 24px;
-    padding-left: 156px;
+    padding-left: 120px;
     
 }
 
 .content-info-top{
-    color: #2e2f42;
-    padding: 0px;
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
     width: calc((100% - 72px) / 4);
     
 }
@@ -288,6 +288,7 @@ ul {
     margin-top: 0px;
     margin-bottom: 72px;
 
+
 }
 
 .main-content-team-list{
@@ -301,8 +302,8 @@ ul {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
+    height: 732px;
+    padding-left: 120px;
     }
 
 .container-mark-guerrero{
@@ -312,17 +313,17 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
     width: 264px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
+
 }   
 
 .main-content-team-pic{
-    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
-}
+    }
 
 
 .our-team{
