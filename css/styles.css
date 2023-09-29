@@ -24,11 +24,12 @@ p{
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     padding: 0 15px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .header .container {
     display: flex;
+    align-items: center;
 
 }
 
@@ -36,6 +37,7 @@ p{
     width: 1158px;
     padding: 0 15px;
     margin: 0px auto;
+    align-content: center;
 }
 
 .header-link{
