@@ -72,14 +72,8 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: flex;
-    height: 24px;
     align-items:flex-start;
     margin-right: 76px;
-    margin-left: 0px;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
-    padding-left: 156px;
     justify-content: center;
 
 }
@@ -177,8 +171,6 @@ ul {
 
 .main-content-section {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
     flex-shrink: 0;
     padding: 188px 0;
 }
@@ -192,8 +184,9 @@ ul {
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em;
-    padding: 0px 0px 48px 0px;
-    margin-left: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
 
 }
 
@@ -214,7 +207,8 @@ ul {
     align-items: flex-start;
     gap: 10px;
     margin-top: 0px;
-    margin-left: 452px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 .button-style:hover {
@@ -235,7 +229,6 @@ ul {
 .container-info{
     display: flex;
     gap: 24px;
-    padding-left: 120px;
     
 }
 
@@ -307,22 +300,11 @@ ul {
     list-style: none;
     padding-bottom: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 24px;
-    height: 732px;
-    padding-left: 120px;
     }
 
 .container-mark-guerrero{
-    height: 380px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
     padding: 32px 0;
-    width: 264px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
 
@@ -330,7 +312,7 @@ ul {
 
 .main-content-team-pic{
     border-radius: 0px 0px 4px 4px;
-    width: calc ((1158 - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     }
 
 
@@ -383,7 +365,6 @@ ul {
     flex-direction: row;
     align-items: flex-start;
     margin-left: 0px;
-    height: 1000px;
     column-gap: 24px;
     row-gap: 48px;
     padding-left: 0px;
@@ -398,8 +379,6 @@ ul {
 .item-banking{
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
-    width: 360px;
-    margin-bottom: 8px;
     padding: 32px 16px
 
 }
@@ -431,8 +410,6 @@ ul {
     line-height: 1.2; 
     letter-spacing: 0.02em;
     text-align: start;
-    padding-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px
 }
 
@@ -442,7 +419,6 @@ ul {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     text-align: start;
-    padding-left: 16px;
     padding-bottom: 0px;
     
 }
@@ -462,9 +438,7 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    margin-left: 156px;
     margin-right: 0px;
-    padding-top: 17.5px;
     width: 264px;
 }
 
@@ -481,8 +455,6 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 101.5px;
-    margin-left: 156px;
     margin-bottom: 16px;
     display: inline-block;
 }
