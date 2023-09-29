@@ -22,9 +22,6 @@ p{
 
 .header{
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0px auto;
 }
 
 .header .container {
@@ -196,7 +193,7 @@ ul {
     line-height: 1.07; 
     letter-spacing: 0.02em;
     padding: 0px 0px 48px 0px;
-    margin-left: 422px;
+    margin-left: 300px;
 
 }
 
@@ -217,7 +214,7 @@ ul {
     align-items: flex-start;
     gap: 10px;
     margin-top: 0px;
-    margin-left: 560px;
+    margin-left: 452px;
     
 }
 .button-style:hover {
