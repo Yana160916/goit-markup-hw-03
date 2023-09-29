@@ -25,6 +25,10 @@ p{
     height: 72px;
 }
 
+.header-link{
+    padding: 24px 0;
+}
+
 .header-container{
     display: flex;
     flex-direction: row;
@@ -143,12 +147,12 @@ ul {
     margin-top: 0px;
     display: flex;
     margin-left: 24px;
+    gap: 40px 
 }
 
 /* Section 1 */
 
 .container{
-    width: 1440px;
 }
 
 .main-content-section {
@@ -224,6 +228,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    width: calc((100% - 72px) / 4); 
     
 }
 
@@ -294,8 +299,9 @@ ul {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    margin-left: 540px;
     }
 
 .container-mark-guerrero{
@@ -307,6 +313,7 @@ ul {
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
+    width: 264px;
 }   
 
 .container-tom-ford{
@@ -318,6 +325,7 @@ ul {
     align-items: center;
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
 }
 
 .container-camila-garcia{
@@ -329,6 +337,7 @@ ul {
     align-items: center;
     gap: 32px;
     border-radius: 0px 0px 4px 4px; 
+    width: 264px;
 }
 
 .container-daniel-wilson{
@@ -340,6 +349,7 @@ ul {
     align-items: center;
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
 }
 
 .main-content-team-pic{
