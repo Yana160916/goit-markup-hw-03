@@ -24,17 +24,19 @@ p{
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     padding: 0 15px;
-    margin: 0px auto;
+    margin: 0px;
 }
 
 .header .container {
     display: flex;
+    margin: 0px;
 
 }
 
 .container{
     width: 1158px;
     padding: 0 15px;
+    margin: 0px;
 }
 
 .header-link{
