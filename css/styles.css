@@ -29,14 +29,13 @@ p{
 
 .header .container {
     display: flex;
-    margin: auto;
 
 }
 
 .container{
     width: 1158px;
     padding: 0 15px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .header-link{
